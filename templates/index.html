@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Piastrix Microservice</title>
+
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+        .container>form {
+            display: grid;
+            margin-inline: 20vw;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Flask Piastrix Microservice</h1>
+    <div class="container">
+        <form action="" method="post">
+            <label for="amount">Amount</label>
+            <input type="text" name="amount" id="">
+    
+            <label for="amount">Currency</label>
+            <select name="currency" id="">
+                <option selected value="EUR">EUR</option>        
+                <option value="USD">USD</option>        
+                <option value="RUB">RUB</option>        
+            </select>
+    
+            <label for="description">Description</label>
+            <textarea name="description" id="" cols="30" rows="10"></textarea>
+            
+            <button type="submit">Submit</button>
+    
+    
+        </form>
+
+    </div>
+
+
+</body>
+</html>
