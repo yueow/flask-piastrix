@@ -1,1 +1,1 @@
-web: gunicorn flask-piastrix.wsgi --log-file -
+web: gunicorn app:app
